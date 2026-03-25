@@ -1,5 +1,9 @@
 print("hello world")
 a=10 
-print("a")
+print(a)
 l=["apple","mango","banana"]
-print("l")
+print(l)
+a=10
+b=20
+print(a&b)
+print(a%b)
