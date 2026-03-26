@@ -22,3 +22,9 @@ boy_name=input("boy name: ")
 boy_age=int(input("boy age: "))
 age_diff=boy_age - girl_age
 print(girl_name + " loves " + boy_name+ " age diff is " + str(age_diff))
+your_name=input("your name: ")
+age=int(input("your age: "))
+if age>=18:
+     print("eligible for voting")
+else:
+     print("not eligible")     
