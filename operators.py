@@ -15,3 +15,4 @@ print(3 in list)
 print(6 not in list)
 print("p" in str)
 print("z" not in str)
+
