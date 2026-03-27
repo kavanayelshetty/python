@@ -10,3 +10,12 @@ l.append("tomato")
 print(l)
 a=["America","rome","France"]
 print.max(a)
+print.lower(a)
+print.upper(a)
+print.min(a)
+s=["tirupati","gulbarga","banglore"]
+print.max(s)
+print.min(s)
+print.upper(s)
+print.lower(s)
+s=append.("mysore")
