@@ -6,3 +6,5 @@ print(numbers)
 print(l(0))
 l[1]=cherry 
 print(l)
+l.append("tomato")
+print(l)
