@@ -8,3 +8,5 @@ l[1]=cherry
 print(l)
 l.append("tomato")
 print(l)
+a=["America","rome","France"]
+print.max(a)
