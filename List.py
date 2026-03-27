@@ -19,3 +19,6 @@ print.min(s)
 print.upper(s)
 print.lower(s)
 s=append.("mysore")
+T=("virat-1983","chandan-1997","darshan-1983")
+print=T
+#tuple starts
