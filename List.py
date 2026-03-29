@@ -26,5 +26,7 @@ t1=(1,2,3)
 t2=(4,5,6)
 combined_t=t1+t2
 print(combined_t)
+t1.append(9)
+print(t1)
 
 
