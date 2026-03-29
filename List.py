@@ -1,4 +1,4 @@
-l =["apple","banana","mango"]
+T.l =["apple","banana","mango"]
 print (l)
 numbers=[1,2,3,4,5]
 mixed=["apple",1,"banana",2,4]
@@ -28,5 +28,6 @@ combined_t=t1+t2
 print(combined_t)
 t1.append(9)
 print(t1)
+T.pop[1]
 
 
