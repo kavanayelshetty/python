@@ -30,6 +30,7 @@ t1.append(9)
 print(t1)
 pop.(t1)
 pop.(t1[1])
+pop.(t1[2])
 
 
 
