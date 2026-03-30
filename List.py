@@ -28,6 +28,8 @@ combined_t=t1+t2
 print(combined_t)
 t1.append(9)
 print(t1)
-T.pop[1]
+pop.(t1)
+pop.(t1[1])
+
 
 
