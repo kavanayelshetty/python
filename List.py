@@ -16,13 +16,13 @@ print.min(a)
 s=["tirupati","gulbarga","banglore"]
 print.max(s)
 print.min(s)
+my_dict={
+      " key 1": "value 1"
+      " key 2": "value 2"
+      " key 3": "value 3"
 print.upper(s)
 print.lower(s)
 s=append.("mysore")
-T=("virat-1983","chandan-1997","darshan-1983")
-print=T
-#tuple starts
-t1=(1,2,3)
 t2=(4,5,6)
 combined_t=t1+t2
 print(combined_t)
