@@ -33,5 +33,9 @@ pop.(t1[1])
 pop.(t1[2])
 reapeted_tuple=(1,2)*3
 print(repeated_tuple)
+Karnataka_food={
+     "banglore ":" mudde "
+     "mysore ":"vade"
+     " Gulbarga ":" roti "
 
 
