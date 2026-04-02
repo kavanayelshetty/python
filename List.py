@@ -37,5 +37,10 @@ Karnataka_food={
      "banglore ":" mudde "
      "mysore ":"vade"
      " Gulbarga ":" roti "
+}
+print("Karnataka_food"["mysore"])
+pint("Karnataka_food".get["mysore"])
+print("Karnataka_food".get["shivamogga","not found"])
+
 
 
