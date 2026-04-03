@@ -8,5 +8,9 @@ fruits.insert(2,"kiwi")
 print(fruits)
 fruits.remove("banana")
 print(fruits)
-
+print(len(fruits))
+numbers=[1,5,4,7,8,6]
+print(numbers)
+print(sorted(numbers))
+print(sum(numbers))
 
