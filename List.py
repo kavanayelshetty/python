@@ -13,4 +13,12 @@ numbers=[1,5,4,7,8,6]
 print(numbers)
 print(sorted(numbers))
 print(sum(numbers))
+matrix=[
+    [1,3,5],
+    [6,7,9],
+    [5,8,2],
+]
+print(matrix)
+print(matrix[2])
+print(matrix[1][2])
 
