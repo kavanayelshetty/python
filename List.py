@@ -1,17 +1,17 @@
-T.l =["apple","banana","mango"]
+t.l =["apple","banana","mango"]
 print (l)
 numbers=[1,2,3,4,5]
 mixed=["apple",1,"banana",2,4]
 print(numbers)
 print(l(0))
-l[1]=cherry 
+l[1]="cherry" 
 print(l)
 l.append("tomato")
 print(l)
 a=["America","rome","France"]
 print.max(a)
-print.lower(a)
-print.upper(a)
+print(lower(a))
+print(upper(a))
 print.min(a)
 s=["tirupati","gulbarga","banglore"]
 print.max(s)
@@ -20,6 +20,7 @@ my_dict={
       " key 1": "value 1"
       " key 2": "value 2"
       " key 3": "value 3"
+}
 print.upper(s)
 print.lower(s)
 s=append.("mysore")
