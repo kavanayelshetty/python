@@ -1,4 +1,6 @@
 fruits=("apple","banana","mango")
 print(fruits)
-fruits[2]="mango"
-print(fruits)
+print(fruits[2])
+print(fruits[1])
+print(fruits[1:3])
+print(fruits[0:])
