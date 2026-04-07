@@ -15,3 +15,8 @@ if age>=18:
     print("you are eligible for voting")
 else:
     print("you are not eligible for voting")    
+print(" ")
+count=1
+while count<=10:
+    print(f"sheep{count}")
+    count+=1
