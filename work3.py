@@ -9,3 +9,12 @@ print("popped element:",popped_element)
 print("after pooping:",my_list)
 my_list.clear()
 print("after clearing the list:",my_list)
+name=input("enter your name: ")
+year_of_birth=int(input("enter your year of birth: "))
+current_year=2026
+age=current_year-year_of_birth
+if age>=60:
+    print(name,"is a senior citizen")
+else:
+    print(name,"is not a senior citizen")    
+
