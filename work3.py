@@ -1,0 +1,11 @@
+my_list=[10,20,30,40]
+print("initial list:",my_list)
+my_list.insert(2,25)
+print("after appending 50: ",my_list)
+length=len(my_list)
+print("length of the list:",length)
+popped_element=my_list.pop()
+print("popped element:",popped_element)
+print("after pooping:",my_list)
+my_list.clear()
+print("after clearing the list:",my_list)
