@@ -17,4 +17,14 @@ if age>=60:
     print(name,"is a senior citizen")
 else:
     print(name,"is not a senior citizen")    
+available_seats=2
+while available_seats>0:
+    print(f"{available_seats} seats avalaible")
+    booking=input("do you want to book a seat?(yes/no):").lower()
+if booking=="yes":
+        available_seats=1
+        print("seat booked!")
+else:
+        print("no booking made")
+print("all seats are booked !")     
 
