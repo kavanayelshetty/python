@@ -12,4 +12,6 @@ print(a-b)
 print(a*b)
 print(a/b)
 print(a//b)
+l= append.["cherry"]
+print(l)
 
