@@ -14,4 +14,7 @@ while pin!= correct_pin:
     if pin != correct_pin:
         print("incorrect PIN,try again")
 print("pin accepted you can proceed")        
+cities=["banglore","gulbarga","hassan"]
+for city in cities:
+    print(city)
 
