@@ -16,6 +16,7 @@ print(sum(numbers))
 numbers.remove(1)
 numbers.pop()
 numbers.append(9)
+numbers.clear()
 numbers.insert(3)
 numbers.clear()
 
