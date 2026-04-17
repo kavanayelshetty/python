@@ -12,5 +12,9 @@ print(len(fruits))
 numbers=[1,5,4,7,8,6]
 print(numbers)
 print(sorted(numbers))
-print(sum(numbers)
+print(sum(numbers))
+numbers.remove(1)
+numbers.pop()
+numbers.append(9)
+
 
