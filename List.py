@@ -17,6 +17,6 @@ numbers.remove(1)
 numbers.pop()
 numbers.append(9)
 numbers.insert(3)
-
+numbers.clear()
 
 
