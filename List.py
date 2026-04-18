@@ -21,5 +21,7 @@ numbers.insert(3)
 numbers.clear()
 friends=["Harshitha","chandana","aishwarya",]
 print(friends)
+friends.append("shreema")
+friends.clear()
 
 
