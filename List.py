@@ -23,5 +23,7 @@ friends=["Harshitha","chandana","aishwarya",]
 print(friends)
 friends.append("shreema")
 friends.clear()
+friends.insert(3)
+friends.pop()
 
 
