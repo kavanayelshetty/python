@@ -22,4 +22,8 @@ for i in range(n):
     c=a+b
     a=b
     b=c
+prefixes="JKLMN"
+suffix="ack"
+for p in prefixes:
+    print(p+suffix)    
 
