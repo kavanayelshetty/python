@@ -17,4 +17,7 @@ print("pin accepted you can proceed")
 cities=["banglore","gulbarga","hassan"]
 for city in cities:
     print(city)
+greet="good morning"
+swp=greet.swapcase()
+print(swp)    
 
