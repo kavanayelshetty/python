@@ -20,4 +20,8 @@ for city in cities:
 greet="good morning"
 swp=greet.swapcase()
 print(swp)    
+fruit="banana"
+list(enumerate(fruit))
+output=[(0,'b'),(1,'a'),(2,'n'),(3,'a'),(4,'n'),(5,'a')]
+print(output)
 
