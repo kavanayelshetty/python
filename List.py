@@ -13,17 +13,15 @@ numbers=[1,5,4,7,8,6]
 print(numbers)
 print(sorted(numbers))
 print(sum(numbers))
-numbers.remove(1)
-numbers.pop()
-numbers.append(9)
-numbers.clear()
-numbers.insert(3)
-numbers.clear()
-friends=["Harshitha","chandana","aishwarya",]
-print(friends)
-friends.append("shreema")
-friends.clear()
-friends.insert(3)
-friends.pop()
+import string
+def remove_punctuation():
+    phrase="hi! morning how are you?"
+    plain_text=" "
+    for letter in phrase:
+        if letter not in string.punctuation:
+            plain_text=plain_text+letter
+    return plain_text
+plain_text=remove_punctuation()
+print(plain_text)        
 
 
