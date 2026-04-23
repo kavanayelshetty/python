@@ -26,4 +26,31 @@ prefixes="JKLMN"
 suffix="ack"
 for p in prefixes:
     print(p+suffix)    
+# Function to calculate area of a rectangle
+def calculate_rectangle_area(length, width):
+    return length * width
+
+# Function to calculate area of a triangle
+def calculate_triangle_area(base, height):
+    return 0.5 * base * height
+
+# --- Main Program ---
+
+# Input for Rectangle
+print("--- Rectangle Area Calculation ---")
+rect_length = float(input("Enter the length of the rectangle: "))
+rect_width = float(input("Enter the width of the rectangle: "))
+
+# Input for Triangle
+print("\n--- Triangle Area Calculation ---")
+tri_base = float(input("Enter the base of the triangle: "))
+tri_height = float(input("Enter the height of the triangle: "))
+
+# Perform Calculations
+rect_area = calculate_rectangle_area(rect_length, rect_width)
+tri_area = calculate_triangle_area(tri_base, tri_height)
+
+# Print Results
+print(f"\nThe area of the rectangle is: {rect_area}")
+print(f"The area of the triangle is: {tri_area}")
 
