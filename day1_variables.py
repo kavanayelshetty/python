@@ -22,3 +22,6 @@ doubled=[]
 for num in numbers:
     doubled.append(num*2)
 print("doubled list: ",doubled)
+foods=["dosa","idly","vada"]
+for food in foods:
+    print(f"i like {food}")
