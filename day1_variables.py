@@ -31,3 +31,7 @@ for student,marks in student_marks.items():
 numbers=[1,2,3,4,5]
 squares=[num**2 for num in numbers ]
 print(squares)    
+x=0
+while not(1<=x<=100):
+    x=int(input("please enter the number between 1 to 100: "))
+print("valid number: ", x)
