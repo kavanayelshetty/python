@@ -25,3 +25,9 @@ print("doubled list: ",doubled)
 foods=["dosa","idly","vada"]
 for food in foods:
     print(f"i like {food}")
+student_marks={"anand":85,"geetha":90,"kumar":78}
+for student,marks in student_marks.items():
+    print(f"{student} scored {marks} marks")    
+numbers=[1,2,3,4,5]
+squares=[num**2 for num in numbers ]
+print(squares)    
