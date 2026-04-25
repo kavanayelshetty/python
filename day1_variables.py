@@ -37,3 +37,5 @@ while not(1<=x<=100):
 print("valid number: ", x)
 x=10
 print(type(x))
+x=x+2
+print(x)
