@@ -35,3 +35,5 @@ x=0
 while not(1<=x<=100):
     x=int(input("please enter the number between 1 to 100: "))
 print("valid number: ", x)
+x=10
+print(type(x))
