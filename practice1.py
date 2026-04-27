@@ -13,3 +13,7 @@ print(uppercase_cities)
 numbers=[1,2,3,4,5,6]
 squares_dict={num:num**2 for num in numbers}
 print(squares)
+
+names=["anana","geetha","kumar"]
+name_lengths={name:len(name) for name in names}
+print(name_lengths)
