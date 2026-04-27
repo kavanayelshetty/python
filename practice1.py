@@ -17,3 +17,12 @@ print(squares)
 names=["anana","geetha","kumar"]
 name_lengths={name:len(name) for name in names}
 print(name_lengths)
+
+city_population={
+    "bengaluru":84,
+    "mysuru":11,
+    "hubballi":9,
+    "mangaluru":5
+}
+large_cities={city:population for city,population in city_population.items() if population>10}
+print(large_cities)
