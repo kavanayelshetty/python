@@ -26,3 +26,7 @@ city_population={
 }
 large_cities={city:population for city,population in city_population.items() if population>10}
 print(large_cities)
+
+sentence="i love coding in python"
+words=sentence.split()
+print(words)
