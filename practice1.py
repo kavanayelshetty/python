@@ -48,4 +48,30 @@ numbers=[1,2,3,4,5]
 squares=[number**2 for number in numbers]
 print(squares)
 
+cities=["bangalore","gulbarga","mysuru","hassan"]
+def city(list):
+    print(len(list))
+    for item in list:
+        print(item,end=" ")
+city(cities)
+print()
 
+numbers=[1,2,3,4,5,6,7,8,9,10]
+squares=[number**2 for number in numbers]
+print(squares)
+even=[  number for number in numbers if number%2==0]
+print(even)
+
+div3=[num for num in range(1,31) if num%3==0]
+print(div3)
+
+k=[1,2,3,4,5,6]
+name=["even" if num%2==0 else "odd"  for num in k ]
+print(name)
+nums=[1,2,3,4,5]
+mulpy=[num*10 for num in nums]
+print(mulpy)
+
+nums=[1,2,3,4,5]
+cubic=[num**3 for num in nums]
+print(cubic)
