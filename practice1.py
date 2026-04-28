@@ -30,3 +30,9 @@ print(large_cities)
 sentence="i love coding in python"
 words=sentence.split()
 print(words)
+
+for i in range(1,31):
+    for j in range(3,4,2):
+        print(f"{i}x{j}={i*j}")
+print( )
+
