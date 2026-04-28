@@ -75,3 +75,7 @@ print(mulpy)
 nums=[1,2,3,4,5]
 cubic=[num**3 for num in nums]
 print(cubic)
+
+names=["kavana","python","job"]
+ren=[name.title() for name in names]
+print(ren)
