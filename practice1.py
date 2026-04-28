@@ -36,3 +36,16 @@ for i in range(1,31):
         print(f"{i}x{j}={i*j}")
 print( )
 
+name="kavana"
+for letter in name:
+    print(letter)
+
+l1=["dosa","idli","ragi mudde","vada"]
+l2=[food.upper() for food in l1]
+print(l2)
+
+numbers=[1,2,3,4,5]
+squares=[number**2 for number in numbers]
+print(squares)
+
+
