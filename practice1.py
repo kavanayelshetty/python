@@ -112,6 +112,9 @@ print("after swaping: ")
 print("a= ",a)
 print("b= ",b)
 
-celsius=int(input("please enter temprature in celsius: "))
-fahrenheit=(celsius*9/5)+32
-print("value in fahrenheit: ",fahrenheit)
+# celsius=int(input("please enter temprature in celsius: ")) 
+# fahrenheit=(celsius*9/5)+32
+# print("value in fahrenheit: ",fahrenheit)
+
+for i in range(1,101):
+    print(i,end=" ")
