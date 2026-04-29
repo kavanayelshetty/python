@@ -79,3 +79,39 @@ print(cubic)
 names=["kavana","python","job"]
 ren=[name.title() for name in names]
 print(ren)
+
+def nums(num):
+    if num%2!=0:
+        print("odd")
+    else:
+        print("even")    
+nums(260)        
+
+def calc_sum(n):
+    if n==0:
+        return 0
+    return calc_sum(n-1)+n
+print(calc_sum(5))
+
+def fact(n):
+    if n==0:
+        return 1
+    return fact(n-1)*n
+print(fact(5))    
+
+numbers=[1,2,3,4,50,68,99]
+l1=[str(num) for num in numbers if num>80]
+print(l1)
+
+a=10
+b=20
+temp=a
+a=b
+b=temp
+print("after swaping: ")
+print("a= ",a)
+print("b= ",b)
+
+celsius=int(input("please enter temprature in celsius: "))
+fahrenheit=(celsius*9/5)+32
+print("value in fahrenheit: ",fahrenheit)
