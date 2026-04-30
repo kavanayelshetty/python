@@ -118,3 +118,8 @@ print("b= ",b)
 
 for i in range(1,101):
     print(i,end=" ")
+print(" ")    
+
+n=int(input("enter a number: "))
+for i in range(1,n+1):
+    print(i**2)   
