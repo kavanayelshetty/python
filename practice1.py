@@ -120,10 +120,10 @@ for i in range(1,101):
     print(i,end=" ")
 print(" ")    
 
-n=int(input("enter a number: "))
-for i in range(1,n+1):
-    print(i**2)  
-print(" ")     
+#n=int(input("enter a number: ")) 
+#for i in range(1,n+1):
+ #   print(i**2)  
+#print(" ")     
 
 list1=range(8)
 for x in list1:
@@ -131,3 +131,16 @@ for x in list1:
         break
     else:
         print(x)
+print(" ")        
+
+def total_sum(*numbers):
+    result=0
+    for num in numbers:
+        result+=num
+    return result
+print(total_sum(1,2,3,4))  
+
+def student_info(**details):
+    for key,value in details.items():
+        print(f"{key}:{value}")
+student_info(name="anand",age=22,course="python")        
