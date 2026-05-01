@@ -122,4 +122,12 @@ print(" ")
 
 n=int(input("enter a number: "))
 for i in range(1,n+1):
-    print(i**2)   
+    print(i**2)  
+print(" ")     
+
+list1=range(8)
+for x in list1:
+    if x==4:
+        break
+    else:
+        print(x)
