@@ -143,4 +143,21 @@ print(total_sum(1,2,3,4))
 def student_info(**details):
     for key,value in details.items():
         print(f"{key}:{value}")
-student_info(name="anand",age=22,course="python")        
+student_info(name="anand",age=22,course="python")
+
+def outer_function(name):
+    def inner_function():
+        print(f"hello,{name}!")
+    inner_function
+
+outer_function("anand")        
+
+class car:
+    def __init__(self,brand,modle):
+        self.brand=brand
+        self.modle=modle
+    def display_info(self):
+        print(f"car brand:{self.brand},model:{self,self.modle}")
+my_car=car("toyota","corolla")
+my_car.display_info()            
+        
