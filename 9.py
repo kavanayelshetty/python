@@ -38,3 +38,17 @@ class person:
 
 person1=person("anand",20)
 person1.introduce()        
+
+class laptop:
+    def __init__(self,brand,price):
+        self.barnd=brand
+        self.price=price
+
+    def info(self):
+        print(f"laptop brand: {self.barnd} , laptop price: {self.price}")
+
+laptop1=laptop("HP",45000)
+laptop2=laptop("dell",50000)
+
+laptop1.info()
+laptop2.info()
