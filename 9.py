@@ -52,3 +52,15 @@ laptop2=laptop("dell",50000)
 
 laptop1.info()
 laptop2.info()
+
+class book:
+    def __init__(self,title,author="unknown"):
+        self.title=title
+        self.author=author
+    def show_book(self):
+        print(f"title:{self.title} author:{self.author}")
+
+book1=book("python programming")
+book2=book("machine learning","andrew ng")
+book1.show_book()
+book2.show_book()
