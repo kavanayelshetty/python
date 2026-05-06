@@ -64,3 +64,28 @@ book1=book("python programming")
 book2=book("machine learning","andrew ng")
 book1.show_book()
 book2.show_book()
+
+n = int(input("enter the number of terms: "))
+first=0
+second=1
+print("fibonacci sequence: ")
+for i in range(n):
+    print(first,end=" ")
+    next_term=first+second
+    first=second
+    second=next_term
+
+my_list=[10,20,30,40]
+print("list elements: ",my_list)
+my_list.insert(2,25)
+print("after inserting 25 at the index 2: ",my_list)
+my_list.remove(20)
+print("after removing 20: ",my_list)
+my_list.append(50)
+print("after appending 50: ",my_list)
+length=len(my_list)
+print("length of the list: ",length)
+popped_element=my_list.pop()
+print("popped element: ",popped_element)
+my_list.clear()
+print("after clearing the list: ",my_list)
