@@ -89,3 +89,20 @@ popped_element=my_list.pop()
 print("popped element: ",popped_element)
 my_list.clear()
 print("after clearing the list: ",my_list)
+
+class ATM:
+    def __init__(self,balance):
+        self. __balance=balance
+    def deposit(self,amount):
+        self.__balance+=amount
+        print(f"deposited {amount} new balance: {self.__balance}")
+    def withdraw(self,amount):
+        if amount <= self.__balance:
+            self.__balance-=amount
+            print(f"withrew {amount} new balance: {self.__balance}")
+        else:
+            print("insufficient balance")            
+
+atm=ATM(1000)
+atm.deposit(500)
+atm.withdraw(300)            
