@@ -65,15 +65,15 @@ book2=book("machine learning","andrew ng")
 book1.show_book()
 book2.show_book()
 
-n = int(input("enter the number of terms: "))
-first=0
-second=1
-print("fibonacci sequence: ")
-for i in range(n):
-    print(first,end=" ")
-    next_term=first+second
-    first=second
-    second=next_term
+#n = int(input("enter the number of terms: "))
+#first=0
+#second=1
+#print("fibonacci sequence: ")
+#for i in range(n):
+    #print(first,end=" ")
+    #next_term=first+second
+    #first=second
+    #second=next_term
 
 my_list=[10,20,30,40]
 print("list elements: ",my_list)
@@ -106,3 +106,15 @@ class ATM:
 atm=ATM(1000)
 atm.deposit(500)
 atm.withdraw(300)            
+
+class bank:
+    def  __init__(self,balance):
+        self.balance=balance
+        
+    def deposite(self,amount):
+        self.balance+=amount
+        print(self.balance)
+
+s1=bank(1000)
+print(s1.balance)    
+s1.deposite(500)
