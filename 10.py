@@ -6,10 +6,12 @@ class user:
         return self.username
     def check_password(self,password):
         return password==self.__password
-    user=user("dev_kannada","pass1234")
-    print(user.get_username())
-    print(user.check_password("wrong_pass"))
-    print(user.check_password("pass1234"))
+
+user=user("dev_kannada","pass1234")
+print(user.get_username())
+print(user.check_password("wrong_pass"))
+print(user.check_password("pass1234"))
+
 
 
         
