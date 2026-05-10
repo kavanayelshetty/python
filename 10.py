@@ -24,5 +24,9 @@ car.start_engine()
 car.accelarate()
 car.brake()      
 
+data="apple,banana,mango"
+fruits=data.split(",")
+print(fruits)
+
 
         
