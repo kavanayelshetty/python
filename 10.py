@@ -12,6 +12,17 @@ print(user.get_username())
 print(user.check_password("wrong_pass"))
 print(user.check_password("pass1234"))
 
+class car:
+    def start_engine(self):
+        print("engine started")
+    def accelarate(self):
+        print("car accelerating")
+    def brake(self):
+        print("car")
+car = car()
+car.start_engine()
+car.accelarate()
+car.brake()      
 
 
         
