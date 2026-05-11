@@ -33,5 +33,10 @@ def add_numbers(a,b):
 result = add_numbers(10,20)
 print("the sum is: ",result)
 
+class database:
+    def __init__(self):
+        self.__syorage{}
+    def save_data(self,key,value):    
+
 
         
