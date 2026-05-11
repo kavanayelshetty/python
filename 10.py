@@ -37,6 +37,9 @@ class database:
     def __init__(self):
         self.__syorage{}
     def save_data(self,key,value):    
+        self.__storage[key]=value
+        print(f"data saved for {key}")
+        
 
 
         
