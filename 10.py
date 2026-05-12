@@ -55,5 +55,13 @@ class child(family):
 child=child("gowda","ajay")
 print(f"{child.name} {child.surname}")        
 
+class user:
+    def __init__(self,username):
+        self.username=username
+    def login(self):
+        print(f"{self.username} logged in ")
+class admin(user):
+    def delete_user(self,user):            
+        
 
         
