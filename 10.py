@@ -45,5 +45,15 @@ db=database()
 db.save_data("user_101",{"name":"raj","age":30})
 print(db.get_data("user_101"))  
 
+class family:
+    def __init__(self,surname):
+        self.surname=surname
+class child(family):
+    def __init__(self, surname,name):
+        super().__init__(surname)        
+        self.name=name
+child=child("gowda","ajay")
+print(f"{child.name} {child.surname}")        
+
 
         
