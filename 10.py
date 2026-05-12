@@ -62,6 +62,10 @@ class user:
         print(f"{self.username} logged in ")
 class admin(user):
     def delete_user(self,user):            
+        print(f"admin {self.username} deleted user {user}")
+Admin=admin("karnataka_admin")
+Admin.login()
+Admin.delete_user("user_102")        
         
 
         
