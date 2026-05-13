@@ -81,5 +81,13 @@ animals=[dog(),cat()]
 for animal in animals:
     print(animal.make_sound())
         
+x=10
+y=10
+print(x is y)
+z=x
+print(z is x)
+print(id(x))
+print(id(y))
+print(id(z))        
 
         
