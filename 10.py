@@ -66,6 +66,20 @@ class admin(user):
 Admin=admin("karnataka_admin")
 Admin.login()
 Admin.delete_user("user_102")        
+
+class Animals:
+    def make_sound(self):
+        pass
+class cat(Animals):       
+    def make_sound(self):
+        print("meow")
+class dog(Animals):
+    def make_sound(self):
+        print("bark")        
+
+animals=[dog(),cat()]
+for animal in animals:
+    print(animal.make_sound())
         
 
         
