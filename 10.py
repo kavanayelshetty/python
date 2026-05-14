@@ -81,6 +81,16 @@ animals=[dog(),cat()]
 for animal in animals:
     print(animal.make_sound())
         
-
-
+class Notification:
+    def send(self):
+        pass
+class EmailNotification(Notification):
+    def send(self):
+        print("sending Email")
+class SMSNotification(Notification):
+    def send(self):
+        print("sending sms")
+notifications=[EmailNotification(),SMSNotification()]
+for notification in notifications:
+    notification.send()                
         
