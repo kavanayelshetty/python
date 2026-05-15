@@ -105,4 +105,8 @@ class student:
             self._age=age
         else:
             print("invalid age")        
+student=student("anita",20)
+print("age: ",student.get_age())
+student.set_age(21)
+print("updated age: ",student.get_age())            
         
