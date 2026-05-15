@@ -94,5 +94,15 @@ notifications=[EmailNotification(),SMSNotification()]
 for notification in notifications:
     notification.send()                
 
-    
+class student:
+    def __init__(self,name,age):
+        self._name=name
+        self._age=age
+    def get_age(self):
+        return self._age
+    def set_age(self,age):
+        if age>0:
+            self._age=age
+        else:
+            print("invalid age")        
         
