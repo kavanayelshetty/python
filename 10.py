@@ -93,4 +93,6 @@ class SMSNotification(Notification):
 notifications=[EmailNotification(),SMSNotification()]
 for notification in notifications:
     notification.send()                
+
+    
         
