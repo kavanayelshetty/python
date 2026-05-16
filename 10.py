@@ -110,3 +110,12 @@ print("age: ",student.get_age())
 student.set_age(21)
 print("updated age: ",student.get_age())            
         
+class mathoperation:
+    def add (self,a,b,c=0):
+        return a+b+c
+math=mathoperation()
+print(math.add(5,10))
+print(math.add(5,10,15))
+
+
+                
