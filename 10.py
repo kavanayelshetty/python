@@ -118,4 +118,16 @@ print(math.add(5,10))
 print(math.add(5,10,15))
 
 
+class animal:
+    def sound(self):
+        print("this animal makes a sound")
+class dog(animal):
+    def sound(self):
+        print("dog barks")
+animals=animal()
+animals.sound() 
+Dog=dog()
+dog.sound       
+            
+
                 
