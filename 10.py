@@ -145,5 +145,16 @@ class dog(animal):
 Dog=dog("buddy","labrador")
 Dog.sound()                     
             
+from abc import ABC,abstractmethod  
+class vehicle(ABC):
+    @abstractmethod
+    def start_engine(self):
+        pass
+class car(vehicle):
+    def start_engine(self):
+        print("car engine started")
+
+            
+
 
                 
