@@ -133,7 +133,7 @@ class animal:
     def __init__(self,name):
         self.name=name
     def sound(self):
-        print(f"{self.name}makes a sound")
+        print(f"{self.name} makes a sound")
 class dog(animal):
     def __init__(self, name,breed):
         super().__init__(name)   
@@ -141,8 +141,9 @@ class dog(animal):
     def sound(self):
         super().sound()
         print(f"{self.name} barks")
-        
-                     
+
+Dog=dog("buddy","labrador")
+Dog.sound()                     
             
 
                 
