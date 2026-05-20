@@ -10,4 +10,6 @@ if num>1:
     else:
         print("prime number")
 else:
-    print("not a prime number")            
+    print("not a prime number")
+    
+                
