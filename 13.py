@@ -11,5 +11,12 @@ if num>1:
         print("prime number")
 else:
     print("not a prime number")
-    
-                
+
+name =input("enter student name: ")
+
+sub1=int(input("enter marks of subject 1: "))
+sub2=int(input("enter marks of subject 2: "))
+sub3=int(input("enter marks of subject 3: "))
+sub4=int(input("enter marks of subject 4: "))
+
+
