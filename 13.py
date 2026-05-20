@@ -12,6 +12,7 @@ if num>1:
 else:
     print("not a prime number")
 
+
 name =input("enter student name: ")
 
 sub1=int(input("enter marks of subject 1: "))
@@ -21,6 +22,7 @@ sub4=int(input("enter marks of subject 4: "))
 
 
 average=(sub1+sub2+sub3+sub4)/4
+print(average)
 
 if average>=90:
     print("grade A")
@@ -31,6 +33,8 @@ elif average>=70:
 elif average>=60:
     print("grade D")
 else:
-    print("grade f")               
+    print("grade f")   
+
+print(f" {name} have scored {average}")                
 
 
