@@ -9,7 +9,9 @@ while True:
     elif guess < secret:
         print("too low!")
     else:
-        print("too high!")    
+        print("too high!")   
+
+
 
 password=input("enter password: ")
 
