@@ -10,3 +10,10 @@ while True:
         print("too low!")
     else:
         print("too high!")    
+
+password=input("enter password: ")
+
+if len(password) >= 8 and any(i.isdigit() for i in password):
+    print("strong password")
+else:
+    print("weak password")    
