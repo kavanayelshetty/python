@@ -24,3 +24,13 @@ for i in range(2,num):
         break
     else:
         print("prime")
+
+items=int(input("enter number of items: "))
+price=float(input("enter price per item: "))
+
+total=items*price
+
+if total>1000:
+    total=total-(total*0.1)
+
+print("final bill = ",total)    
