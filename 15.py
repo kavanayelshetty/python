@@ -34,3 +34,4 @@ if total>1000:
     total=total-(total*0.1)
 
 print("final bill = ",total)    
+
