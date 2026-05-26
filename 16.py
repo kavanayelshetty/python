@@ -18,4 +18,13 @@ for i in range(len(arr)):
         if arr[j]>arr[j+1]:
             arr[j],arr[j+1]=arr[j+1],arr[j]
 
-print("sorted: ",arr)            
+print("sorted: ",arr)     
+
+stack=[]
+
+stack.append(10)
+stack.append(20)
+stack.append(30)
+
+print("popped: ",stack.pop())
+print("stack: ",stack)
