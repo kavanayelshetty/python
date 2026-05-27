@@ -28,3 +28,31 @@ stack.append(30)
 
 print("popped: ",stack.pop())
 print("stack: ",stack)
+
+
+nums = [12, 45, 7, 89, 34, 89, 23]
+
+largest = second = float('-inf')
+
+for i in nums:
+    if i > largest:
+        second = largest
+        largest = i
+    elif i > second and i != largest:
+        second = i
+
+print("Second Largest:", second)
+
+nums = [12, 45, 7, 89, 34, 89, 23]
+
+largest = second = float('-inf')
+
+for i in nums:
+    if i > largest:
+        second = largest
+        largest = i
+    elif i > second and i != largest:
+        second = i
+
+print("Second Largest:", second)
+
