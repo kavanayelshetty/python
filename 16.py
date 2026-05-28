@@ -68,4 +68,12 @@ for ch in text:
 
 print(freq)
 
+secret = 7
+guess=int(input("guess a number (1-10)"))
+
+if guess==secret:
+    print("correct")
+else:
+    print("wrong guess")    
+
 
