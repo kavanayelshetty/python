@@ -76,4 +76,26 @@ if guess==secret:
 else:
     print("wrong guess")    
 
+    
+# word = input("Enter a word: ")
+# count = 0
+
+# for i in word.lower():
+#     if i in "aeiou":
+#         count += 1
+
+# print("Vowels:", count)
+
+# quiz game
+
+score=0
+ans=input("python is a programming language (yes/no): ")
+
+if ans.lower()=="yes":
+    print("correct!")
+    score+=1
+else:
+    print("wrong!") 
+print("score: ",score)       
+
 
