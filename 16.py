@@ -106,3 +106,11 @@ while True:
     again=input("Roll again? (y/n): ")
     if again=="n":
         break
+
+import time
+seconds=int(input("enter time in seconds: "))
+while seconds>0:
+    print("Time left: ", seconds,"seconds")
+    time.sleep(1)
+    seconds-=1
+print("Time's up")        
