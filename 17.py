@@ -29,3 +29,14 @@ while True:
     if again != "yes":
         print("Game Over!")
         break
+
+numbers = [12, 5, 8, 20, 3]
+
+largest = max(numbers)
+smallest = min(numbers)
+total = sum(numbers)
+
+print("Numbers:", numbers)
+print("Largest:", largest)
+print("Smallest:", smallest)
+print("Sum:", total)
