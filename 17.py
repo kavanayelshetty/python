@@ -17,3 +17,15 @@ for i in range(101):
     time.sleep(0.05)
 
 print("\nUPLOAD COMPLETE 🚀")
+
+import random
+
+while True:
+    roll = random.randint(1, 6)
+    print("🎲 You rolled:", roll)
+
+    again = input("Roll again? (yes/no): ").lower()
+
+    if again != "yes":
+        print("Game Over!")
+        break
