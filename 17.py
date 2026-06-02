@@ -43,3 +43,6 @@ print("Sum:", total)
 
 text="python"
 print(text[::-1])
+
+nums=[5,9,2,14,7]
+print(max(nums))
