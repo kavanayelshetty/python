@@ -40,3 +40,6 @@ print("Numbers:", numbers)
 print("Largest:", largest)
 print("Smallest:", smallest)
 print("Sum:", total)
+
+text="python"
+print(text[::-1])
