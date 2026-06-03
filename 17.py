@@ -49,3 +49,10 @@ print(max(nums))
 
 for i in range(1,6):
     print("* " * i)
+
+    num = 7
+
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
