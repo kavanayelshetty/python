@@ -58,4 +58,15 @@ else:
     print("Odd")
 
 for i in range(1, 6):
-    print(i)    
+    print(i)  
+
+import random
+
+messages = [
+    "Keep learning!",
+    "Stay focused!",
+    "You can do it!",
+    "Never give up!"
+]
+
+print(random.choice(messages))      
