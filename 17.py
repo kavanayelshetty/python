@@ -78,3 +78,7 @@ for ch in text:
     if ch in "aeioyAEIOU":
         count+=1
 print("vowels: ",count)        
+
+num=1234
+count=len(str(num))
+print("digits: ",count)
