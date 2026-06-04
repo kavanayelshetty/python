@@ -82,3 +82,7 @@ print("vowels: ",count)
 num=1234
 count=len(str(num))
 print("digits: ",count)
+
+numbers=[45,12,89,23,67]
+largest1=max(numbers)
+print("Largest: ",largest1)
