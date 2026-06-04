@@ -70,3 +70,11 @@ messages = [
 ]
 
 print(random.choice(messages))      
+
+text="python"
+
+count=0
+for ch in text:
+    if ch in "aeioyAEIOU":
+        count+=1
+print("vowels: ",count)        
