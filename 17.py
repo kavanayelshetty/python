@@ -20,15 +20,15 @@ import time
 
 import random
 
-while True:
-    roll = random.randint(1, 6)
-    print("🎲 You rolled:", roll)
+# while True:
+#     roll = random.randint(1, 6)
+#     print("🎲 You rolled:", roll)
 
-    again = input("Roll again? (yes/no): ").lower()
+#     again = input("Roll again? (yes/no): ").lower()
 
-    if again != "yes":
-        print("Game Over!")
-        break
+#     if again != "yes":
+#         print("Game Over!")
+#         break
 
 numbers = [12, 5, 8, 20, 3]
 
@@ -86,3 +86,13 @@ print("digits: ",count)
 numbers=[45,12,89,23,67]
 largest1=max(numbers)
 print("Largest: ",largest1)
+
+import random
+
+chars = "abcdefghijklmnopqrstuvwxyz123456789"
+password = ""
+
+for i in range(8):
+    password += random.choice(chars)
+
+print(password)
