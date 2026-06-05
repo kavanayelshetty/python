@@ -96,3 +96,7 @@ for i in range(8):
     password += random.choice(chars)
 
 print(password)
+
+from time import strftime
+
+print(strftime("%H:%M:%S"))
