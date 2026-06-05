@@ -100,3 +100,10 @@ print(password)
 from time import strftime
 
 print(strftime("%H:%M:%S"))
+
+import qrcode
+url="https://in.pinterest.com/glowoutfitworld47/"
+
+img = qrcode.make(url)
+img.save("pinterest_qr.png")
+print("pinterest qrcode created")
