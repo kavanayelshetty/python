@@ -107,3 +107,10 @@ url="https://in.pinterest.com/glowoutfitworld47/"
 img = qrcode.make(url)
 img.save("pinterest_qr.png")
 print("pinterest qrcode created")
+
+import qrcode
+url="https://www.linkedin.com/in/kavana-yelshetty-770954381/"
+
+img = qrcode.make(url)
+img.save("linkdin_qr.png")
+print("linkdin qrcode created")
