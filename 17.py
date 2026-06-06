@@ -101,16 +101,22 @@ from time import strftime
 
 print(strftime("%H:%M:%S"))
 
-import qrcode
-url="https://in.pinterest.com/glowoutfitworld47/"
+# import qrcode
+# url="https://in.pinterest.com/glowoutfitworld47/"
 
-img = qrcode.make(url)
-img.save("pinterest_qr.png")
-print("pinterest qrcode created")
+# img = qrcode.make(url)
+# img.save("pinterest_qr.png")
+# print("pinterest qrcode created")
 
-import qrcode
-url="https://www.linkedin.com/in/kavana-yelshetty-770954381/"
+# import qrcode
+# url="https://www.linkedin.com/in/kavana-yelshetty-770954381/"
 
-img = qrcode.make(url)
-img.save("linkdin_qr.png")
-print("linkdin qrcode created")
+# img = qrcode.make(url)
+# img.save("linkdin_qr.png")
+# print("linkdin qrcode created")
+
+try:
+    a=int(input("enter a number: "))
+    print(10/a)
+except ZeroDivisionError:
+    print("you cant divide by zero! ")    
