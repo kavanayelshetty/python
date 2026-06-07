@@ -128,4 +128,11 @@ try:
 except ZeroDivisionError:
     print("cannot divide by zero!")
 except ValueError:
-    print("please enter a valid number.")    
+    print("please enter a valid number.")
+
+text = "Python is fun"
+
+words = text.split()
+
+for word in words:
+    print(word[::-1], end=" ")        
