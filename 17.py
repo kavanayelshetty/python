@@ -136,3 +136,6 @@ words = text.split()
 
 for word in words:
     print(word[::-1], end=" ")        
+
+for i in range(1, 6):
+    print(str(i) * i)    
