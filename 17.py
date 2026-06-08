@@ -141,4 +141,8 @@ for i in range(1, 6):
     print(str(i) * i)
 
 expenses=[120,250,80,150]
-print("total expenses=",sum(expenses))        
+print("total expenses=",sum(expenses))  
+
+import random
+emojis=["😊","🚀","🔥","💻"]
+print(random.choice(emojis))
