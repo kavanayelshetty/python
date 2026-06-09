@@ -146,3 +146,12 @@ print("total expenses=",sum(expenses))
 import random
 emojis=["😊","🚀","🔥","💻"]
 print(random.choice(emojis))
+
+word = input("enter a word: ")
+vowels="aeiouAEIOU"
+count=0
+for letter in word:
+    if letter in vowels:
+        count+=1
+print("number of vowels: ",count)        
+
