@@ -171,3 +171,10 @@ import numpy as np
 arr=np.array([10,20,30,40,50])
 print("original array: ",arr)
 print("sliced array: ",arr[1:4])
+
+import numpy as np
+arr=np.array([10,20,30,40,50])
+print("original array: ",np.max(arr))
+print("sliced array: ",np.min(arr))
+
+
