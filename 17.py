@@ -177,4 +177,11 @@ arr=np.array([10,20,30,40,50])
 print("original array: ",np.max(arr))
 print("sliced array: ",np.min(arr))
 
+n = input("Enter a number: ")
+
+if n == n[::-1]:
+    print("Palindrome")
+else:
+    print("Not a Palindrome")
+
 
