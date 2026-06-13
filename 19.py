@@ -25,3 +25,15 @@ filename = "report.pdf"
 extension = filename.split(".")[-1]
 
 print("File Extension:", extension)
+
+# Find duplicate elements in a list
+
+numbers = [1, 2, 3, 2, 4, 5, 1, 6]
+
+duplicates = []
+
+for i in numbers:
+    if numbers.count(i) > 1 and i not in duplicates:
+        duplicates.append(i)
+
+print("Duplicate Elements:", duplicates)
