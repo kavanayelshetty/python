@@ -18,4 +18,10 @@ for ch in text.lower():
     if ch in "aeiou":
         count += 1
 
-print("Number of vowels:", count)    
+print("Number of vowels:", count)
+
+filename = "report.pdf"
+
+extension = filename.split(".")[-1]
+
+print("File Extension:", extension)
