@@ -37,3 +37,9 @@ for i in numbers:
         duplicates.append(i)
 
 print("Duplicate Elements:", duplicates)
+
+text = "Python"
+
+reverse = text[::-1]
+
+print("Reversed String:", reverse)
