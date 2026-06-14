@@ -39,7 +39,9 @@ for i in numbers:
 print("Duplicate Elements:", duplicates)
 
 text = "Python"
-
 reverse = text[::-1]
 
 print("Reversed String:", reverse)
+celsius = 25
+fahrenheit = (celsius * 9/5) + 32
+print("Fahrenheit:", fahrenheit)
