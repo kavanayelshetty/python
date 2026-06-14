@@ -1,15 +1,3 @@
-num = int(input("Enter a number: "))
-
-if num > 1:
-    for i in range(2, num):
-        if num % i == 0:
-            print("Not Prime")
-            break
-    else:
-        print("Prime")
-else:
-    print("Not Prime")
-
 text = "Python Programming"
 
 count = 0
@@ -45,3 +33,9 @@ print("Reversed String:", reverse)
 celsius = 25
 fahrenheit = (celsius * 9/5) + 32
 print("Fahrenheit:", fahrenheit)
+
+year = 2024
+if year % 4 == 0:
+    print("Leap Year")
+else:
+    print("Not a Leap Year")
