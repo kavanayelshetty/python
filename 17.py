@@ -174,4 +174,11 @@ for i in range(1, 51):
     if i % 5 == 0:
         print(i)
 
+# Find the frequency of each character in a string
+
+text = "python"
+
+for ch in text:
+    print(ch, ":", text.count(ch))
+
 
