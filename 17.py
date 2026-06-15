@@ -30,16 +30,6 @@ import random
 #         print("Game Over!")
 #         break
 
-numbers = [12, 5, 8, 20, 3]
-
-largest = max(numbers)
-smallest = min(numbers)
-total = sum(numbers)
-
-print("Numbers:", numbers)
-print("Largest:", largest)
-print("Smallest:", smallest)
-print("Sum:", total)
 
 text="python"
 print(text[::-1])
@@ -86,20 +76,6 @@ print("digits: ",count)
 numbers=[45,12,89,23,67]
 largest1=max(numbers)
 print("Largest: ",largest1)
-
-import random
-
-chars = "abcdefghijklmnopqrstuvwxyz123456789"
-password = ""
-
-for i in range(8):
-    password += random.choice(chars)
-
-print(password)
-
-from time import strftime
-
-print(strftime("%H:%M:%S"))
 
 # import qrcode
 # url="https://in.pinterest.com/glowoutfitworld47/"
@@ -188,12 +164,14 @@ else:
 
 a = 10
 b = 20
-
 a, b = b, a
-
 print("a =", a)
 print("b =", b)
 
+# Print numbers divisible by 5 from 1 to 50
 
+for i in range(1, 51):
+    if i % 5 == 0:
+        print(i)
 
 
