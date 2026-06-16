@@ -182,3 +182,9 @@ for ch in text:
     print(ch, ":", text.count(ch))
 
 
+# Find the second largest number in a list
+numbers = [12, 45, 7, 89, 34, 67]
+numbers.sort()
+print("Second largest number is:", numbers[-2])    
+
+
