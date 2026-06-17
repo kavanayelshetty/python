@@ -11,3 +11,10 @@ print("b =", b)
 numbers = [10, 20, 30, 40, 50]
 numbers[0], numbers[-1] = numbers[-1], numbers[0]
 print(numbers)
+
+
+# Reverse each word in a sentence
+
+text = "Python is fun"
+for word in text.split():
+    print(word[::-1], end=" ")
