@@ -26,4 +26,10 @@ root = int(num ** 0.5)
 if root * root == num:
     print("Perfect Square")
 else:
-    print("Not a Perfect Square")    
+    print("Not a Perfect Square")  
+
+# Convert decimal number to binary
+
+num = 13
+binary = bin(num)
+print("Binary:", binary)      
