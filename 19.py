@@ -18,3 +18,12 @@ print(numbers)
 text = "Python is fun"
 for word in text.split():
     print(word[::-1], end=" ")
+
+
+# Check whether a number is a perfect square
+num = 49
+root = int(num ** 0.5)
+if root * root == num:
+    print("Perfect Square")
+else:
+    print("Not a Perfect Square")    
