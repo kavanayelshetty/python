@@ -39,3 +39,12 @@ print("Binary:", binary)
 for i in range(1, 21):
     if i % 3 == 0:
         print(i)
+
+# Check whether a year is a leap year
+
+year = 2024
+
+if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
+    print("Leap Year")
+else:
+    print("Not a Leap Year")        
