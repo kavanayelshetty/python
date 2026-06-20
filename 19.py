@@ -67,3 +67,10 @@ for ch in text.lower():
         count += 1
 
 print("Number of vowels =", count)
+
+
+lst = [10, 20, 30, 40, 50]
+
+lst[0], lst[-1] = lst[-1], lst[0]
+
+print("Updated List:", lst)
