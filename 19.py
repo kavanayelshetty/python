@@ -56,3 +56,14 @@ for i in range(1, num + 1):
     fact *= i
 
 print("Factorial =", fact)    
+
+
+text = input("Enter a string: ")
+
+count = 0
+
+for ch in text.lower():
+    if ch in "aeiou":
+        count += 1
+
+print("Number of vowels =", count)
