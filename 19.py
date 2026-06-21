@@ -81,3 +81,18 @@ if num % 2 == 0:
     print(num, "is an Even number")
 else:
     print(num, "is an Odd number")
+
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+largest = a
+
+if b > largest:
+    largest = b
+
+if c > largest:
+    largest = c
+
+print("Largest number is:", largest)    
