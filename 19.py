@@ -95,4 +95,10 @@ if b > largest:
 if c > largest:
     largest = c
 
-print("Largest number is:", largest)    
+print("Largest number is:", largest)  
+
+import qrcode
+url="ahs"
+image=qrcode.make(url)
+image.save("pinterest.png")
+print("qrcode created")
