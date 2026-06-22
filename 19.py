@@ -97,8 +97,3 @@ if c > largest:
 
 print("Largest number is:", largest)  
 
-import qrcode
-url="ahs"
-image=qrcode.make(url)
-image.save("pinterest.png")
-print("qrcode created")
