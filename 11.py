@@ -1,10 +1,7 @@
-import random
-secret=random.randint(1,10)
-print("guess a number between 1 and 10")
-guess=int(input("enter your guess: "))
+from time import strftime
+import time
 
-if guess==secret:
-    print("correct! you guessed it.")
-else:
-    print("wrong")
-    print("the correct number was: ",secret)    
+for _ in range(10):
+    current_time = strftime("%H:%M:%S")
+    print("Current Time:", current_time)
+    time.sleep(1)
