@@ -12,3 +12,10 @@ num = 7
 
 for i in range(1, 11):
     print(num, "x", i, "=", num * i)
+
+text = "Python"
+
+reverse = text[::-1]
+
+print("Original String:", text)
+print("Reversed String:", reverse)    
