@@ -18,4 +18,16 @@ text = "Python"
 reverse = text[::-1]
 
 print("Original String:", text)
-print("Reversed String:", reverse)    
+print("Reversed String:", reverse)
+
+# Find the largest number in a list
+
+numbers = [12, 45, 7, 89, 34, 56]
+
+largest = numbers[0]
+
+for num in numbers:
+    if num > largest:
+        largest = num
+
+print("Largest number:", largest)
