@@ -17,4 +17,12 @@ for ch in text:
     if ch in "aeiouAEIOU":
         count += 1
 
-print("Number of vowels:", count)    
+print("Number of vowels:", count)
+
+num = 5
+fact = 1
+
+for i in range(1, num + 1):
+    fact *= i
+
+print("Factorial:", fact)
