@@ -26,3 +26,13 @@ for i in range(1, num + 1):
     fact *= i
 
 print("Factorial:", fact)
+
+numbers = [1, 2, 3, 2, 4, 5, 1, 6]
+
+unique = []
+
+for i in numbers:
+    if i not in unique:
+        unique.append(i)
+
+print("List without duplicates:", unique)
