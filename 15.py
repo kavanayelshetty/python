@@ -36,3 +36,12 @@ for i in numbers:
         unique.append(i)
 
 print("List without duplicates:", unique)
+
+numbers = [2, 3, 2, 5, 3, 2, 4]
+
+for i in numbers:
+    if numbers.count(i) == 0:
+        continue
+    print(i, "appears", numbers.count(i), "times")
+    while i in numbers:
+        numbers.remove(i)
