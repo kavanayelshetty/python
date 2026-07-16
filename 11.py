@@ -6,4 +6,13 @@ class car:
         print(f"car brand: {self.brand} , model: {self.model}")
 
 my_car=car("toyota","corolla")
-my_car.display_info()        
+my_car.display_info()   
+
+class person:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def greet(self):
+        print(f"hello! my name is  {self.name} and i am {self.age} years old  ")
+info=person("arun",19)            
+print(info.greet())   
