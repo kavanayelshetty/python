@@ -1,4 +1,4 @@
-   laddus=5
+laddus=5
 friends=["rahul","sneha","aman","priya"]
 for friend in friends:
     if laddus>0:
