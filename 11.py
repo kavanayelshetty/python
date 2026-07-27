@@ -4,3 +4,7 @@ def welcome(func):
         func()
         print("take care!")
     return wrapper    
+@welcome
+def intro():
+    print("i am kavana")
+intro()
