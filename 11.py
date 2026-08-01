@@ -22,3 +22,8 @@ import numpy as np
 v1 = np.array([1,2,3,4])
 v=np.insert(v1,(2,4),60)
 print(var,v)
+
+v2=np.array([[1,4,6],[2,5,7]])
+v3=np.insert(v2,(2,4),19)
+print(v3)
+print(v2)
