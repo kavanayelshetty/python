@@ -27,3 +27,8 @@ v2=np.array([[1,4,6],[2,5,7]])
 v3=np.insert(v2,(2,4),19)
 print(v3)
 print(v2)
+
+x=np.array([[1,2,5],[3,4,5]])
+y=np.append(x,[[8],[9]],axis=1)
+print(x)
+print(y)
