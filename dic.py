@@ -7,14 +7,4 @@ for i in np.nditer(var2,op_flags=['readwrite']):
     i[...]=i*2
 print(var2)
 
-arr = np.array([[1,2],[2,4]])
-it=np.nditer(arr,flags=['multi_index'])
-for x in it:
-    print(it.multi_index,x)   
-
-vr1=np.array([[1,4,6],[3,5,8]])
-vr2=np.array([[2,9,1],[4,6,7]]) 
-
-ar=np.concatenate((vr1,vr2),axis=0)
-print(ar)
 
