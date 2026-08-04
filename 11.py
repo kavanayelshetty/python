@@ -32,3 +32,10 @@ x=np.array([[1,2,5],[3,4,5]])
 y=np.append(x,[[8],[9]],axis=1)
 print(x)
 print(y)
+
+num = 18
+
+if num % 2 == 0:
+    print(num, "is Even")
+else:
+    print(num, "is Odd")
