@@ -39,3 +39,10 @@ if num % 2 == 0:
     print(num, "is Even")
 else:
     print(num, "is Odd")
+
+sum = 0
+
+for i in range(1, 101):
+    sum += i
+
+print("Sum =", sum)    
