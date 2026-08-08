@@ -130,8 +130,6 @@ dog=Dog()
 dog.sound()      
 
 
-
-
 from abc import ABC,abstractmethod  
 class vehicle(ABC):
     @abstractmethod
