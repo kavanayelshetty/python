@@ -28,3 +28,13 @@ v3=np.insert(v2,(2,4),19)
 print(v3)
 print(v2)
 
+text = "Python Programming"
+vowels = "aeiou"
+
+count = 0
+
+for char in text.lower():
+    if char in vowels:
+        count += 1
+
+print("Number of vowels:", count)
