@@ -28,9 +28,3 @@ v3=np.insert(v2,(2,4),19)
 print(v3)
 print(v2)
 
-numbers = [10, 45, 23, 67, 89, 34]
-
-unique_numbers = list(set(numbers))
-unique_numbers.sort()
-
-print("Second largest:", unique_numbers[-2])
