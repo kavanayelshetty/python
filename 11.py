@@ -28,3 +28,16 @@ v3=np.insert(v2,(2,4),19)
 print(v3)
 print(v2)
 
+# Count the frequency of each word
+
+text = "python is easy and python is powerful"
+
+words = text.split()
+frequency = {}
+
+for word in words:
+    frequency[word] = frequency.get(word, 0) + 1
+
+print("Word Frequency:")
+for word, count in frequency.items():
+    print(word, ":", count)
