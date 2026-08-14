@@ -9,3 +9,13 @@ if num > 1:
         print("Prime number")
 else:
     print("Not a prime number")
+
+numbers = [12, 45, 7, 89, 34]
+
+largest = numbers[0]
+
+for num in numbers:
+    if num > largest:
+        largest = num
+
+print("Largest number:", largest)    
