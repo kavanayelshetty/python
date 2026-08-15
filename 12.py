@@ -20,3 +20,12 @@ for num in numbers:
 
 print("Largest number:", largest)    
 
+num = 12345
+reverse = 0
+
+while num > 0:
+    digit = num % 10
+    reverse = reverse * 10 + digit
+    num //= 10
+
+print("Reversed number:", reverse)
