@@ -20,10 +20,3 @@ for num in numbers:
 
 print("Largest number:", largest)    
 
-num = 27
-
-if num % 2 == 0:
-    print("Even")
-else:
-    print("Odd")
-
