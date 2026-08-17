@@ -30,3 +30,6 @@ print(v2)
 
 x=np.array([10,np.nan,6,3])
 print(np.isnan(x))
+
+y=np.array([6,np.inf,-np.inf,np.nan])
+print(np.isinf(y))
