@@ -28,3 +28,5 @@ v3=np.insert(v2,(2,4),19)
 print(v3)
 print(v2)
 
+x=np.array([10,np.nan,6,3])
+print(np.isnan(x))
