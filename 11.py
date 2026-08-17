@@ -36,3 +36,4 @@ print(np.isinf(y))
 
 z=np.array([10,np.nan,np.inf,-np.inf])
 print(np.nan_to_num(z,nan=20,posinf=100,neginf=-100))
+
