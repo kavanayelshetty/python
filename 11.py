@@ -28,7 +28,3 @@ v3=np.insert(v2,(2,4),19)
 print(v3)
 print(v2)
 
-# Count the frequency of each word
-
-text = "python is easy and python is powerful"
-
