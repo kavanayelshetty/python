@@ -12,4 +12,4 @@ dic = {"a":[1,2,3,4],"b":[5,6,7,8],"c":[10,20,30,40]}
 var=pd.DataFrame(dic)
 print(var)
 
-var2=var.to_csv("text.csv")
+var2=var.to_csv("text.csv",index=False)
