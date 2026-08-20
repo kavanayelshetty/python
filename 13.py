@@ -17,13 +17,3 @@ var2=var.to_csv("text.csv",index=False)
 var1=pd.read_csv("C:\\Users\\Kavana\\OneDrive\\Desktop\\python project\\text.csv",skiprows=[1])
 print(var1)
 
-a = 25
-b = 42
-c = 18
-
-if a > b and a > c:
-    print("Largest:", a)
-elif b > a and b > c:
-    print("Largest:", b)
-else:
-    print("Largest:", c)
