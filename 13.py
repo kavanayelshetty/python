@@ -17,14 +17,3 @@ var2=var.to_csv("text.csv",index=False)
 var1=pd.read_csv("C:\\Users\\Kavana\\OneDrive\\Desktop\\python project\\text.csv",skiprows=[1])
 print(var1)
 
-num = 17
-
-if num > 1:
-    for i in range(2, num):
-        if num % i == 0:
-            print("Not a prime number")
-            break
-    else:
-        print("Prime number")
-else:
-    print("Not a prime number")
