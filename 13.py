@@ -17,4 +17,13 @@ var2=var.to_csv("text.csv",index=False)
 var1=pd.read_csv("C:\\Users\\Kavana\\OneDrive\\Desktop\\python project\\text.csv",skiprows=[1])
 print(var1)
 
+text = "Python Programming"
 
+vowels = "aeiouAEIOU"
+count = 0
+
+for char in text:
+    if char in vowels:
+        count += 1
+
+print("Number of vowels:", count)
