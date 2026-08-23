@@ -17,10 +17,4 @@ var2=var.to_csv("text.csv",index=False)
 var1=pd.read_csv("C:\\Users\\Kavana\\OneDrive\\Desktop\\python project\\text.csv",skiprows=[1])
 print(var1)
 
-a = 25
-b = 48
-c = 31
 
-largest = max(a, b, c)
-
-print("Largest number:", largest)
