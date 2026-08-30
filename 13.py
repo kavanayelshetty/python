@@ -17,3 +17,12 @@ var2=var.to_csv("text.csv",index=False)
 var1=pd.read_csv("C:\\Users\\Kavana\\OneDrive\\Desktop\\python project\\text.csv",skiprows=[1])
 print(var1)
 
+import random
+import string
+
+length = 8
+
+characters = string.ascii_letters + string.digits
+password = "".join(random.choice(characters) for i in range(length))
+
+print("Generated Password:", password)
