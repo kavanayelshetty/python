@@ -17,10 +17,3 @@ var2=var.to_csv("text.csv",index=False)
 var1=pd.read_csv("C:\\Users\\Kavana\\OneDrive\\Desktop\\python project\\text.csv",skiprows=[1])
 print(var1)
 
-n = int(input("Enter a number: "))
-total = 0
-
-for i in range(1, n + 1):
-    total += i
-
-print("Sum =", total)
