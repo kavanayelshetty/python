@@ -17,3 +17,10 @@ var2=var.to_csv("text.csv",index=False)
 var1=pd.read_csv("C:\\Users\\Kavana\\OneDrive\\Desktop\\python project\\text.csv",skiprows=[1])
 print(var1)
 
+principal = 5000
+rate = 6
+time = 2
+
+simple_interest = (principal * rate * time) / 100
+
+print("Simple Interest:", simple_interest)
