@@ -24,8 +24,3 @@ if num % 2 == 0:
 else:
     print("Odd number")
 
-text = "Python"
-
-reverse = text[::-1]
-
-print("Reversed string:", reverse)
