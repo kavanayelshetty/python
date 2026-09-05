@@ -23,3 +23,11 @@ if num % 2 == 0:
     print("Even number")
 else:
     print("Odd number")
+
+a = 25
+b = 48
+c = 32
+
+largest = max(a, b, c)
+
+print("Largest number:", largest)    
