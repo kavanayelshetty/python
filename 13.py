@@ -17,9 +17,3 @@ var2=var.to_csv("text.csv",index=False)
 var1=pd.read_csv("C:\\Users\\Kavana\\OneDrive\\Desktop\\python project\\text.csv",skiprows=[1])
 print(var1)
 
-num = -5
-
-if num >= 0:
-    print("Positive")
-else:
-    print("Negative")
