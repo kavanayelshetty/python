@@ -24,6 +24,3 @@ if num % 2 == 0:
 else:
     print("Odd number")
 
-a = 15
-b = 20
-print("Sum =", a + b)
