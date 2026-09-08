@@ -23,3 +23,11 @@ if num % 2 == 0:
     print("Even")
 else:
     print("Odd")
+
+a = 10
+b = 25
+
+if a > b:
+    print(a)
+else:
+    print(b)    
