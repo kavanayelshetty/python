@@ -24,10 +24,3 @@ if num % 2 == 0:
 else:
     print("Odd")
 
-a = 10
-b = 25
-
-if a > b:
-    print(a)
-else:
-    print(b)    
