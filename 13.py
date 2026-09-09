@@ -27,3 +27,9 @@ if num % 2 == 0:
     print("Even")
 else:
     print("Odd")
+
+a = 10
+b = 25
+c = 15
+
+print(max(a, b, c))    
