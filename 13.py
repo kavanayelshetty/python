@@ -18,8 +18,3 @@ var1=pd.read_csv("C:\\Users\\Kavana\\OneDrive\\Desktop\\python project\\text.csv
 print(var1)
 
 
-text = "Python"
-
-reversed_text = text[::-1]
-
-print(reversed_text)
