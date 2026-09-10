@@ -18,3 +18,8 @@ var1=pd.read_csv("C:\\Users\\Kavana\\OneDrive\\Desktop\\python project\\text.csv
 print(var1)
 
 
+numbers = [12, 45, 7, 89, 34]
+
+largest = max(numbers)
+
+print("Largest number is:", largest)
