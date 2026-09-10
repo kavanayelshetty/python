@@ -18,9 +18,3 @@ var1=pd.read_csv("C:\\Users\\Kavana\\OneDrive\\Desktop\\python project\\text.csv
 print(var1)
 
 
-num = 10
-
-if num % 2 == 0:
-    print("Even")
-else:
-    print("Odd")
