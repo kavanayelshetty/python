@@ -30,3 +30,13 @@ numbers = [10, 45, 23, 67, 12]
 largest = max(numbers)
 
 print("Largest number:", largest)    
+
+text = "Python Programming"
+
+count = 0
+
+for char in text.lower():
+    if char in "aeiou":
+        count += 1
+
+print("Number of vowels:", count)
