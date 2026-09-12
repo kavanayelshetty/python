@@ -23,3 +23,9 @@ if num % 2 == 0:
     print("Even")
 else:
     print("Odd")
+
+numbers = [10, 45, 23, 67, 34]
+
+largest = max(numbers)
+
+print("Largest number:", largest)    
