@@ -25,9 +25,3 @@ for i in range(1, num + 1):
 
 print("Factorial:", factorial)
 
-word = "madam"
-
-if word == word[::-1]:
-    print("Palindrome")
-else:
-    print("Not a palindrome")
