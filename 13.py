@@ -25,11 +25,3 @@ for i in range(1, num + 1):
 
 print("Factorial:", factorial)
 
-text = "Hello Python"
-count = 0
-
-for char in text.lower():
-    if char in "aeiou":
-        count += 1
-
-print("Number of vowels:", count)
