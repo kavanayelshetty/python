@@ -25,3 +25,9 @@ for i in range(1, num + 1):
 
 print("Factorial:", factorial)
 
+num = 10
+
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
