@@ -24,3 +24,7 @@ for i in range(1, num + 1):
     factorial *= i
 
 print("Factorial:", factorial)
+
+numbers = [12, 45, 7, 89, 34]
+
+print("Largest number is:", max(numbers))
