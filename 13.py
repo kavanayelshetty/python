@@ -17,15 +17,3 @@ var2=var.to_csv("text.csv",index=False)
 var1=pd.read_csv("C:\\Users\\Kavana\\OneDrive\\Desktop\\python project\\text.csv",skiprows=[1])
 print(var1)
 
-text = "python is easy and python is powerful"
-
-words = text.split()
-frequency = {}
-
-for word in words:
-    if word in frequency:
-        frequency[word] += 1
-    else:
-        frequency[word] = 1
-
-print(frequency)
