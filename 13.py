@@ -16,20 +16,3 @@ var2=var.to_csv("text.csv",index=False)
 
 var1=pd.read_csv("C:\\Users\\Kavana\\OneDrive\\Desktop\\python project\\text.csv",skiprows=[1])
 print(var1)
-
-marks = [85, 72, 91, 68, 78]
-
-average = sum(marks) / len(marks)
-
-print("Average:", average)
-
-if average >= 90:
-    print("Grade: A+")
-elif average >= 80:
-    print("Grade: A")
-elif average >= 70:
-    print("Grade: B")
-elif average >= 60:
-    print("Grade: C")
-else:
-    print("Grade: D")
