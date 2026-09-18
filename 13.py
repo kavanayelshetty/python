@@ -26,3 +26,9 @@ for ch in text.lower():
         count += 1
 
 print("Number of vowels:", count)
+
+numbers = [12, 45, 7, 89, 23]
+
+largest = max(numbers)
+
+print("Largest number:", largest)
