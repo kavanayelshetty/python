@@ -23,3 +23,12 @@ if word == word[::-1]:
     print("Palindrome")
 else:
     print("Not a palindrome")
+
+text = "Hello World"
+count = 0
+
+for ch in text:
+    if ch.lower() in "aeiou":
+        count += 1
+
+print("Number of vowels:", count)    
