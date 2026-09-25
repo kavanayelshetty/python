@@ -43,8 +43,3 @@ while num > 0:
 
 print("Sum of digits:", total)
 
-numbers = [10, 15, 22, 31, 44, 57]
-
-for num in numbers:
-    if num % 2 == 0:
-        print(num)
