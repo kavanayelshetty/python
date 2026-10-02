@@ -24,3 +24,9 @@ if word == word[::-1]:
 else:
     print("Not a palindrome")
 
+word = "madam"
+
+if word == word[::-1]:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
