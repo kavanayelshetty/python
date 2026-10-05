@@ -26,3 +26,9 @@ for num in numbers:
         largest = num
 
 print("Largest number:", largest)
+word = "madam"
+
+if word == word[::-1]:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
