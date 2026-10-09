@@ -25,10 +25,3 @@ for num in numbers:
     if num > largest:
         largest = num
 
-print("Largest number:", largest)
-
-numbers = [12, 45, 23, 67, 34]
-
-numbers = sorted(set(numbers))
-
-print("Second largest:", numbers[-2])
