@@ -25,10 +25,3 @@ for ch in text:
     if ch in vowels:
         count += 1
 
-print("Number of vowels:", count)
-
-numbers = [12, 45, 23, 67, 34]
-
-numbers = sorted(set(numbers))
-
-print("Second largest:", numbers[-2])
