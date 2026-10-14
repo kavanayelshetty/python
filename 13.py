@@ -26,3 +26,19 @@ for n in numbers:
         largest = n
 
 print("Largest number:", largest)
+
+num = 13
+is_prime = True
+
+if num < 2:
+    is_prime = False
+else:
+    for i in range(2, num):
+        if num % i == 0:
+            is_prime = False
+            break
+
+if is_prime:
+    print("Prime number")
+else:
+    print("Not a prime number")
