@@ -17,13 +17,3 @@ var2=var.to_csv("text.csv",index=False)
 var1=pd.read_csv("C:\\Users\\Kavana\\OneDrive\\Desktop\\python project\\text.csv",skiprows=[1])
 print(var1)
 
-numbers = [12, 45, 23, 67, 34]
-
-largest = numbers[0]
-
-for n in numbers:
-    if n > largest:
-        largest = n
-
-print("Largest number:", largest)
-
