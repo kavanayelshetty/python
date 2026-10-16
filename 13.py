@@ -17,3 +17,22 @@ var2=var.to_csv("text.csv",index=False)
 var1=pd.read_csv("C:\\Users\\Kavana\\OneDrive\\Desktop\\python project\\text.csv",skiprows=[1])
 print(var1)
 
+score = 0
+
+answer = input("What is the capital of India? ")
+
+if answer.lower() == "new delhi":
+    print("Correct answer!")
+    score += 1
+else:
+    print("Wrong answer!")
+
+answer = input("What is 5 * 6? ")
+
+if answer == "30":
+    print("Correct answer!")
+    score += 1
+else:
+    print("Wrong answer!")
+
+print("Your score:", score, "/ 2")
