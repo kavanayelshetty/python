@@ -17,3 +17,9 @@ var2=var.to_csv("text.csv",index=False)
 var1=pd.read_csv("C:\\Users\\Kavana\\OneDrive\\Desktop\\python project\\text.csv",skiprows=[1])
 print(var1)
 
+password = "Python@123"
+
+if len(password) >= 8 and "@" in password:
+    print("Strong password")
+else:
+    print("Weak password")
