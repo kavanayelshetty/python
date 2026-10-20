@@ -27,12 +27,3 @@ if answer.lower() == "new delhi":
 else:
     print("Wrong answer!")
 
-answer = input("What is 5 * 6? ")
-
-if answer == "30":
-    print("Correct answer!")
-    score += 1
-else:
-    print("Wrong answer!")
-
-print("Your score:", score, "/ 2")
