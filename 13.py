@@ -43,3 +43,9 @@ for ch in text:
         count += 1
 
 print("Number of vowels:", count)
+
+numbers = [12, 45, 23, 67, 34]
+
+unique_numbers = sorted(set(numbers))
+
+print("Second largest:", unique_numbers[-2])
