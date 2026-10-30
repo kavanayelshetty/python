@@ -44,3 +44,8 @@ for ch in text:
 
 print("Number of vowels:", count)
 
+numbers = [12, 45, 23, 67, 34]
+
+numbers.sort()
+
+print("Second largest:", numbers[-2])
