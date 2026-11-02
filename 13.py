@@ -38,3 +38,13 @@ if total == num:
     print("Armstrong number")
 else:
     print("Not an Armstrong number")
+
+text = "programming"
+vowels = "aeiou"
+count = 0
+
+for ch in text:
+    if ch in vowels:
+        count += 1
+
+print("Number of vowels:", count)
