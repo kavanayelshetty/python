@@ -38,9 +38,3 @@ if total == num:
     print("Armstrong number")
 else:
     print("Not an Armstrong number")
-
-numbers = [12, 45, 23, 67, 34, 89]
-
-numbers.sort()
-
-print("Second largest:", numbers[-2])
