@@ -17,3 +17,9 @@ var2=var.to_csv("text.csv",index=False)
 var1=pd.read_csv("C:\\Users\\Kavana\\OneDrive\\Desktop\\python project\\text.csv",skiprows=[1])
 print(var1)
 
+a = [10, 20, 30, 40]
+b = [30, 40, 50, 60]
+
+common = set(a) & set(b)
+
+print("Common elements:", common)
