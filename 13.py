@@ -30,3 +30,14 @@ def factorial(n):
     return n * factorial(n - 1)
 
 print("Factorial:", factorial(5))
+
+marks = {
+    "Rahul": 85,
+    "Anu": 95,
+    "Kiran": 75,
+    "Ravi": 90
+}
+
+result = dict(sorted(marks.items(), key=lambda x: x[1]))
+
+print(result)
