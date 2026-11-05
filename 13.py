@@ -28,10 +28,3 @@ if total == num:
     print("Perfect Number")
 else:
     print("Not a Perfect Number")
-
-keys = ["name", "age", "city"]
-values = ["Kavana", 19, "Bangalore"]
-
-result = dict(zip(keys, values))
-
-print(result)    
