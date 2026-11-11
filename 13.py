@@ -24,13 +24,3 @@ unique.sort()
 
 print("Second largest:", unique[-2])
 
-text = "Artificial Intelligence"
-
-vowels = "aeiou"
-count = 0
-
-for ch in text.lower():
-    if ch in vowels:
-        count += 1
-
-print("Number of vowels:", count)
