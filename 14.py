@@ -21,9 +21,3 @@ if total == num:
 else:
     print("Not an Armstrong number")
 
-dict1 = {"name": "Kavana", "age": 19}
-dict2 = {"course": "CSE", "year": 2}
-
-result = {**dict1, **dict2}
-
-print(result)    
