@@ -6,3 +6,17 @@ print(s1+s2)
 list_1=[[1,2,3,4,5],[6,7,8,9,10]]
 var1=pd.DataFrame(list_1)
 print(var1)
+
+num = 153
+temp = num
+total = 0
+
+while temp > 0:
+    digit = temp % 10
+    total += digit ** 3
+    temp //= 10
+
+if total == num:
+    print("Armstrong number")
+else:
+    print("Not an Armstrong number")
