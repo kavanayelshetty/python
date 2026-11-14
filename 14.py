@@ -11,3 +11,8 @@ word = "banana"
 
 for ch in set(word):
     print(ch, "appears", word.count(ch), "times")
+
+num = 7
+
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)    
