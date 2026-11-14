@@ -7,3 +7,7 @@ list_1=[[1,2,3,4,5],[6,7,8,9,10]]
 var1=pd.DataFrame(list_1)
 print(var1)
 
+word = "banana"
+
+for ch in set(word):
+    print(ch, "appears", word.count(ch), "times")
