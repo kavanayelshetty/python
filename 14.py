@@ -39,3 +39,10 @@ actual = sum(numbers)
 missing = expected - actual
 
 print("Missing number:", missing)    
+
+celsius = 37
+
+fahrenheit = (celsius * 9/5) + 32
+
+print("Celsius:", celsius)
+print("Fahrenheit:", fahrenheit)
