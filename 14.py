@@ -29,3 +29,13 @@ if num % total == 0:
     print("Harshad Number")
 else:
     print("Not a Harshad Number")
+
+numbers = [1, 2, 3, 5, 6, 7]
+
+n = 7
+expected = n * (n + 1) // 2
+actual = sum(numbers)
+
+missing = expected - actual
+
+print("Missing number:", missing)    
