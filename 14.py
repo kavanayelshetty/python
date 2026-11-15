@@ -22,3 +22,16 @@ num = 25
 binary = bin(num)[2:]
 
 print("Binary number:", binary)    
+
+num = 18
+temp = num
+total = 0
+
+while temp > 0:
+    total += temp % 10
+    temp //= 10
+
+if num % total == 0:
+    print("Harshad Number")
+else:
+    print("Not a Harshad Number")
