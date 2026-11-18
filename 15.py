@@ -36,3 +36,13 @@ for ch in text:
     frequency[ch] = frequency.get(ch, 0) + 1
 
 print(frequency)
+
+prices = [120, 250, 80, 150]
+
+total = sum(prices)
+discount = total * 0.10
+final_amount = total - discount
+
+print("Total:", total)
+print("Discount:", discount)
+print("Final bill:", final_amount)
