@@ -23,3 +23,8 @@ if total == num:
     print("Armstrong number")
 else:
     print("Not an Armstrong number")
+    
+num = 25
+binary = bin(num)
+
+print("Binary:", binary[2:])    
