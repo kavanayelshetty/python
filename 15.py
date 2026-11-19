@@ -56,3 +56,13 @@ for word in words:
     frequency[word] = frequency.get(word, 0) + 1
 
 print(frequency)
+
+numbers = [1, 2, 3, 5, 6, 7]
+
+n = 7
+expected = n * (n + 1) // 2
+actual = sum(numbers)
+
+missing = expected - actual
+
+print("Missing number:", missing)
