@@ -47,10 +47,3 @@ print("Total:", total)
 print("Discount:", discount)
 print("Final bill:", final_amount)
 
-sentence = "Python makes programming interesting"
-
-words = sentence.split()
-longest = max(words, key=len)
-
-print("Longest word:", longest)
-print("Length:", len(longest))
