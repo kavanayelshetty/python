@@ -67,4 +67,14 @@ missing = expected - actual
 
 print("Missing number:", missing)
 
+sentence = "python is easy and python is powerful"
+words = sentence.split()
 
+frequency = {}
+
+for word in words:
+    frequency[word] = frequency.get(word, 0) + 1
+
+print("Word frequency:")
+for word, count in frequency.items():
+    print(word, ":", count)
