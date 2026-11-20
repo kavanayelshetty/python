@@ -67,17 +67,4 @@ missing = expected - actual
 
 print("Missing number:", missing)
 
-students = [
-    {"name": "Asha", "age": 20},
-    {"name": "Rahul", "age": 21},
-    {"name": "Asha", "age": 20},
-    {"name": "Priya", "age": 19}
-]
 
-unique_students = []
-
-for student in students:
-    if student not in unique_students:
-        unique_students.append(student)
-
-print(unique_students)
