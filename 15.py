@@ -57,16 +57,6 @@ for word in words:
 
 print(frequency)
 
-numbers = [1, 2, 3, 5, 6, 7]
-
-n = 7
-expected = n * (n + 1) // 2
-actual = sum(numbers)
-
-missing = expected - actual
-
-print("Missing number:", missing)
-
 sentence = "python is easy and python is powerful"
 words = sentence.split()
 
