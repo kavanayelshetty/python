@@ -52,3 +52,11 @@ numbers = [12, 45, 23, 67, 34]
 
 numbers.remove(max(numbers))
 print("Second largest:", max(numbers))
+
+num = 18
+total = sum(int(d) for d in str(num))
+
+if num % total == 0:
+    print("Harshad Number")
+else:
+    print("Not a Harshad Number")
