@@ -1,11 +1,4 @@
-import pandas as pd
-s1= pd.Series(12,index=[1,2,3,4,5])
-s2=pd.Series(12,index=[1,2,3,4])
-print(s1+s2)
 
-list_1=[[1,2,3,4,5],[6,7,8,9,10]]
-var1=pd.DataFrame(list_1)
-print(var1)
 
 word = "banana"
 
@@ -46,3 +39,11 @@ fahrenheit = (celsius * 9/5) + 32
 
 print("Celsius:", celsius)
 print("Fahrenheit:", fahrenheit)
+
+word = "programming"
+frequency = {}
+
+for ch in word:
+    frequency[ch] = frequency.get(ch, 0) + 1
+
+print(frequency)
