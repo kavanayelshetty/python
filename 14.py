@@ -47,3 +47,8 @@ for ch in word:
     frequency[ch] = frequency.get(ch, 0) + 1
 
 print(frequency)
+
+numbers = [12, 45, 23, 67, 34]
+
+numbers.remove(max(numbers))
+print("Second largest:", max(numbers))
