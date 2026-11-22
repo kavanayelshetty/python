@@ -72,8 +72,3 @@ words = sentence.split()
 print("Total words:", len(words))
 print("Unique words:", len(set(words)))
 
-sentence = "Python is fun and Python is powerful"
-
-words = sentence.split()
-print("Total words:", len(words))
-print("Unique words:", len(set(words)))
