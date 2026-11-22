@@ -53,3 +53,15 @@ numbers = [12, 45, 23, 67, 34]
 numbers.remove(max(numbers))
 print("Second largest:", max(numbers))
 
+students = {
+    "Asha": 85,
+    "Ravi": 92,
+    "Meena": 78,
+    "Kiran": 88
+}
+
+topper = max(students, key=students.get)
+
+print("Student marks:", students)
+print("Topper:", topper)
+print("Highest marks:", students[topper])
