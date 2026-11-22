@@ -65,3 +65,9 @@ topper = max(students, key=students.get)
 print("Student marks:", students)
 print("Topper:", topper)
 print("Highest marks:", students[topper])
+
+sentence = "Python is fun and Python is powerful"
+
+words = sentence.split()
+print("Total words:", len(words))
+print("Unique words:", len(set(words)))
