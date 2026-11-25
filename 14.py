@@ -60,3 +60,19 @@ students = {
     "Kiran": 88
 }
 
+
+sentence = "python is easy and python is powerful"
+words = sentence.split()
+frequency = {}
+
+for word in words:
+    frequency[word] = frequency.get(word, 0) + 1
+
+print("Word frequency:")
+for word, count in frequency.items():
+    print(word, ":", count)
+    
+for i in range(1, 6):
+    for j in range(1, i + 1):
+        print(j, end=" ")
+    print()    
