@@ -60,9 +60,3 @@ students = {
     "Kiran": 88
 }
 
-topper = max(students, key=students.get)
-
-print("Student marks:", students)
-print("Topper:", topper)
-print("Highest marks:", students[topper])
-
