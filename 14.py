@@ -60,3 +60,10 @@ students = {
     "Kiran": 88
 }
 
+num = 18
+total = sum(int(d) for d in str(num))
+
+if num % total == 0:
+    print("Harshad Number")
+else:
+    print("Not a Harshad Number")
