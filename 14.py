@@ -91,3 +91,25 @@ for letter in encoded:
     decoded += chr(ord(letter) - 2)
 
 print("Decoded message:", decoded)
+
+items = {
+    "Laptop": 50000,
+    "Mouse": 800,
+    "Keyboard": 1500,
+    "Headphones": 2000
+}
+
+total = 0
+
+print("----- Shopping Bill -----")
+
+for item, price in items.items():
+    print(item, ":", price)
+    total += price
+
+discount = total * 10 / 100
+final_amount = total - discount
+
+print("Total:", total)
+print("Discount:", discount)
+print("Final amount:", final_amount)
