@@ -76,3 +76,18 @@ for i in range(1, 6):
     for j in range(1, i + 1):
         print(j, end=" ")
     print()    
+
+
+message = "python is fun"
+encoded = ""
+
+for letter in message:
+    encoded += chr(ord(letter) + 2)
+
+print("Encoded message:", encoded)
+
+decoded = ""
+for letter in encoded:
+    decoded += chr(ord(letter) - 2)
+
+print("Decoded message:", decoded)
