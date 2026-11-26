@@ -113,3 +113,14 @@ final_amount = total - discount
 print("Total:", total)
 print("Discount:", discount)
 print("Final amount:", final_amount)
+
+sentence = "python makes coding easy and python is powerful"
+
+words = sentence.split()
+frequency = {}
+
+for word in words:
+    frequency[word] = frequency.get(word, 0) + 1
+
+for word, count in frequency.items():
+    print(word, "appears", count, "times")
