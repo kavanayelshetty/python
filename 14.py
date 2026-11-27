@@ -114,3 +114,11 @@ print("Total:", total)
 print("Discount:", discount)
 print("Final amount:", final_amount)
 
+password = "Kavana@123"
+
+if len(password) < 6:
+    print("Weak Password")
+elif len(password) < 10:
+    print("Medium Password")
+else:
+    print("Strong Password")
