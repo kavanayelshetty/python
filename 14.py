@@ -123,14 +123,3 @@ elif len(password) < 10:
 else:
     print("Strong Password")
     
-items = {"Pen": 10, "Book": 50, "Bag": 500}
-
-total = 0
-
-for item, price in items.items():
-    print(item, ":", price)
-    total += price
-
-print("Total Bill:", total)
-print("Discount:", total * 0.10)
-print("Final Amount:", total * 0.90)    
