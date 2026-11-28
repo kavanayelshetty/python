@@ -145,3 +145,15 @@ for word in words:
 print("Word frequency:")
 for word, count in frequency.items():
     print(word, ":", count)
+    
+units = 120
+
+if units <= 100:
+    bill = units * 2
+elif units <= 200:
+    bill = units * 3
+else:
+    bill = units * 5
+
+print("Units consumed:", units)
+print("Electricity bill: Rs.", bill)    
